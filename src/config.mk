@@ -2,12 +2,12 @@
 EXE =
 
 ## Source root
-SRC=~/git/GM64
+SRC=/home/parallels/Documents/Gatemate/GM64
 
 ## toolchain
-YOSYS = ~/GateMate/bin/yosys/yosys$(EXE)
-PR    = ~/GateMate/bin/p_r/p_r$(EXE)
-OFL   = ~/1git/openFPGALoader/build/openFPGALoader$(EXE)
+YOSYS = /home/parallels/Documents/Gatemate/cc-toolchain-linux/bin/yosys/yosys$(EXE)
+PR    = /home/parallels/Documents/Gatemate/cc-toolchain-linux/bin/p_r/p_r$(EXE)
+OFL   = /home/parallels/Documents/Gatemate/cc-toolchain-linux/bin/openFPGALoader/openFPGALoader$(EXE)
 OFLFLAGS =-b olimex_gatemateevb
 
 GTKW = /usr/bin/gtkwave
@@ -16,8 +16,8 @@ VVP = vvp
 IVLFLAGS = -Winfloop -g2012 -gspecify -Ttyp
 
 ## simulation libraries
-CELLS_SYNTH = ~/GateMate/bin/yosys/share/gatemate/cells_sim.v
-CELLS_IMPL = ~/GateMate/bin/p_r/cpelib.v
+CELLS_SYNTH = /home/parallels/Documents/Gatemate/cc-toolchain-linux/bin/yosys/share/gatemate/cells_sim.v
+CELLS_IMPL = /home/parallels/Documents/Gatemate/bin/p_r/cpelib.v
 
 ## target sources
 VLOG_SRC = $(shell find ./src/ -type f \( -iname \*.v -o -iname \*.sv \))
