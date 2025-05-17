@@ -11,9 +11,9 @@ The project has just started. The next steps are as follows:
 - [x] Setting up the IDE and directory structure
 - [x] Makefiles and scripts to compile and test each module individually
 - [x] Creation and upload of the bitstream to FPGA
-- [x] System wide monostable multivibrator type reset module
+- [x] System wide "monostable multivibrator style" reset module
 - [x] Basic video output
-- [ ] LY68S3200 PSRAM (4Mx8) BUS controller
+- [ ] LY68S3200 PSRAM (4Mx8) BUS controller (99% but still not really stable)
 - [ ] 6502 loading/storing/executing code from PSRAM
 - [ ] Video module accessing PSRAM
 - [ ] ... much, much more...
@@ -33,7 +33,7 @@ Software I am using:
     
 ## Hardware
 * GateMate&trade; FPGA from [Cologne Chip](https://www.colognechip.com/programmable-logic/gatemate/) CCGM1A1 on the [Olimex development board](https://www.olimex.com/Products/FPGA/GateMate/GateMateA1-EVB/open-source-hardware).
-* A cheap (~€16) video capture USB stick to display the VGA output of the FPGA onto my HDMI monitor in an overlapping window using [Gucview](https://guvcview.sourceforge.net/)
+* A cheap (~€16) video capture USB stick to display the VGA output of the FPGA onto my HDMI monitor in an overlapping window using [Gucview](https://guvcview.sourceforge.net/) or simply use the camera app.
   <p><img src="https://github.com/B3rndK/GM64/assets/47975140/178d5aa9-a7b8-496d-859b-2568bc66423e" width="640"></p>(My IDE with some FPGA's video test output in Gucview)<br><br>
 * RIGOL DS1202Z-E Oscilloscope
   
